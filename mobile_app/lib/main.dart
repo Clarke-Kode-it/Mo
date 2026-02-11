@@ -254,7 +254,7 @@ class TopNavBar extends StatelessWidget {
     required this.elapsedText,
   });
 
-  static const _blue = Color(0xFF2F67D7);
+  static const _blue = Color.fromARGB(255, 196, 150, 2);
 
   @override
   Widget build(BuildContext context) {
